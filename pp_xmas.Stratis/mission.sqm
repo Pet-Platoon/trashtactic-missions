@@ -9072,6 +9072,25 @@ class Mission
 				nAttributes=4;
 			};
 		};
+		class Item60
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2981.4651,9.2239227,5850.1929};
+				angles[]={0,0.64821529,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this addAction [""<t color='#FF0000'>Jingle Bells</t>"", {playSound ""jinglebells"";}];" \n "this addAction [""<t color='#0000FF'>Feliz Navidad</t>"", {playSound ""feliznavidad"";}];" \n "this addAction [""<t color='#00FF00'>Rudolph the red-nosed Reindeer</t>"", {playSound ""rudolph"";}];" \n "this addAction [""<t color='#FFFF00'>Schnuffels Weihnachtslied</t>"", {playSound ""schnuffel"";}];" \n "this addAction [""<t color='#00FFFF'>Holz (Weihnachtsversion)</t>"", {playSound ""holz"";}];";
+				name="speaker1";
+			};
+			id=125;
+			type="Land_Loudspeakers_F";
+			atlOffset=4.7683716e-007;
+		};
 		class Item61
 		{
 			dataType="Logic";
@@ -10843,6 +10862,43 @@ class Mission
 			angle=299.11288;
 			id=164;
 			atlOffset=-1.5498247;
+		};
+		class Item92
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2147.0391,9.5656462,5689.1401};
+				angles[]={0,0.64821529,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this addAction [""<t color='#FF0000'>Jingle Bells</t>"", {playSound ""jinglebells"";}];" \n "this addAction [""<t color='#0000FF'>Feliz Navidad</t>"", {playSound ""feliznavidad"";}];" \n "this addAction [""<t color='#00FF00'>Rudolph the red-nosed Reindeer</t>"", {playSound ""rudolph"";}];" \n "this addAction [""<t color='#FFFF00'>Schnuffels Weihnachtslied</t>"", {playSound ""schnuffel"";}];" \n "this addAction [""<t color='#00FFFF'>Holz (Weihnachtsversion)</t>"", {playSound ""holz"";}];";
+				name="speaker1_1";
+			};
+			id=167;
+			type="Land_Loudspeakers_F";
+		};
+		class Item93
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3121.981,7.0270958,5879.2788};
+				angles[]={0,0.64821529,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this addAction [""<t color='#FF0000'>Jingle Bells</t>"", {playSound ""jinglebells"";}];" \n "this addAction [""<t color='#0000FF'>Feliz Navidad</t>"", {playSound ""feliznavidad"";}];" \n "this addAction [""<t color='#00FF00'>Rudolph the red-nosed Reindeer</t>"", {playSound ""rudolph"";}];" \n "this addAction [""<t color='#FFFF00'>Schnuffels Weihnachtslied</t>"", {playSound ""schnuffel"";}];" \n "this addAction [""<t color='#00FFFF'>Holz (Weihnachtsversion)</t>"", {playSound ""holz"";}];";
+				name="speaker1_2";
+			};
+			id=168;
+			type="Land_Loudspeakers_F";
+			atlOffset=0.046000242;
 		};
 		class Item94
 		{
