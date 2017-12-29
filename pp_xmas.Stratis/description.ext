@@ -1,0 +1,35 @@
+class CfgSounds
+{
+	sounds[]={};
+
+	class jinglebells
+	{
+		name = "jinglebells";
+		sound[] = {"\music\jinglebells.ogg", 1, 1, 100};
+		titles[] = {1, "Jingle Bells"};
+	};
+	class feliznavidad
+	{
+		name = "feliznavidad";
+		sound[] = {"\music\feliznavidad.ogg", db+1, 1.0};
+		titles[] = {1, "Feliz Navidad"};
+	};
+	class rudolph
+	{
+		name = "rudolph";
+		sound[] = {"\music\rudolph.ogg", db+1, 1.0};
+		titles[] = {1, "Rudolph the red-nosed reindeer"};
+	};
+	class schnuffel
+	{
+		name = "schnuffel";
+		sound[] = {"\music\schnuffel.ogg", db+1, 1.0};
+		titles[] = {1, "Schnuffels Weihnachtslied"};
+	};
+	class holz
+	{
+		name = "holz";
+		sound[] = {"\music\holz.ogg", db+1, 1.0};
+		titles[] = {1, "Holz (Weihnachtsedition)"};
+	};
+};
